@@ -38,13 +38,11 @@ Defined in header |text|_ which is included from ``<Kokkos_Core.hpp>``
 
 Provides most of the |text2|_, such as ``fabs``, ``sqrt``, and ``sin``.
 
-Math functions are available in the ``Kokkos::`` namespace since version 3.7, in ``Kokkos::Experimental`` in previous versions.
-
 Below is the synopsis for ``sqrt`` as an example of unary math function.
 
 .. code-block:: cpp
 
-    namespace Kokkos {  // (since 3.7)
+    namespace Kokkos {
         KOKKOS_FUNCTION float       sqrt ( float x );
         KOKKOS_FUNCTION float       sqrtf( float x );
         KOKKOS_FUNCTION double      sqrt ( double x );
