@@ -38,13 +38,11 @@ Defined in header |text|_ which is included from ``<Kokkos_Core.hpp>``
 
 Provides most of the |text2|_, such as ``fabs``, ``sqrt``, and ``sin``.
 
-Math functions are available in the ``Kokkos::`` namespace since version 3.7, in ``Kokkos::Experimental`` in previous versions.
-
 Below is the synopsis for ``sqrt`` as an example of unary math function.
 
 .. code-block:: cpp
 
-    namespace Kokkos {  // (since 3.7)
+    namespace Kokkos {
         KOKKOS_FUNCTION float       sqrt ( float x );
         KOKKOS_FUNCTION float       sqrtf( float x );
         KOKKOS_FUNCTION double      sqrt ( double x );
@@ -59,9 +57,9 @@ See below the list of common mathematical functions supported. We refer the read
 
 ------------
 
-.. [#since_kokkos_5_1] (since Kokkos 5.1)
 .. [#since_kokkos_4_0] (since Kokkos 4.0)
-.. [#not_implemented] (not implemented)
+.. [#since_kokkos_4_1] (since Kokkos 4.1)
+.. [#since_kokkos_5_1] (since Kokkos 5.1)
 .. [#not_available_with_sycl] (not available with SYCL)
 
 Basic operations
@@ -459,7 +457,7 @@ Floating point manipulation functions
    * - |logb|_
      - extracts exponent of the number
    * - |nextafter|_
-       |nexttoward|_ [#not_implemented]_
+       |nexttoward|_ [#since_kokkos_5_1]_
      - next representable floating-point value towards the given value
    * - |copysign|_
      - copies the sign of a floating point value
@@ -558,8 +556,6 @@ Other (non-standard) functions
      - computes the reciprocal square root (:math:`1/\sqrt{x}`)
    * - ``rcp`` [#since_kokkos_5_1]_
      - computes the reciprocal (:math:`1/x`)
-
-.. [#since_kokkos_4_1] (since Kokkos 4.1)
 
 ------------
 
