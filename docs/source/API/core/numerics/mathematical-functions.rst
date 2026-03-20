@@ -59,7 +59,6 @@ See below the list of common mathematical functions supported. We refer the read
 
 .. [#since_kokkos_5_1] (since Kokkos 5.1)
 .. [#since_kokkos_4_0] (since Kokkos 4.0)
-.. [#not_implemented] (not implemented)
 .. [#not_available_with_sycl] (not available with SYCL)
 
 Basic operations
@@ -457,7 +456,7 @@ Floating point manipulation functions
    * - |logb|_
      - extracts exponent of the number
    * - |nextafter|_
-       |nexttoward|_ [#not_implemented]_
+       |nexttoward|_ [#since_kokkos_5_1]_
      - next representable floating-point value towards the given value
    * - |copysign|_
      - copies the sign of a floating point value
