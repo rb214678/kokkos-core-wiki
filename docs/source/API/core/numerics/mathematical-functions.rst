@@ -57,8 +57,9 @@ See below the list of common mathematical functions supported. We refer the read
 
 ------------
 
-.. [#since_kokkos_5_1] (since Kokkos 5.1)
 .. [#since_kokkos_4_0] (since Kokkos 4.0)
+.. [#since_kokkos_4_1] (since Kokkos 4.1)
+.. [#since_kokkos_5_1] (since Kokkos 5.1)
 .. [#not_available_with_sycl] (not available with SYCL)
 
 Basic operations
@@ -555,8 +556,6 @@ Other (non-standard) functions
      - computes the reciprocal square root (:math:`1/\sqrt{x}`)
    * - ``rcp`` [#since_kokkos_5_1]_
      - computes the reciprocal (:math:`1/x`)
-
-.. [#since_kokkos_4_1] (since Kokkos 4.1)
 
 ------------
 
